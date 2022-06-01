@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/Global.jpg) top center;
   background-size: cover;
 }
 @media (min-width: 1024px) {
@@ -465,7 +465,7 @@ section {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/Jobs.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -507,6 +507,51 @@ section {
 #services .service-description {
   margin-left: 80px;
   line-height: 24px;
+}
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  padding-bottom: 30px;
+}
+.counts .count-box {
+  padding: 30px;
+  width: 100%;
+}
+.counts .count-box i {
+  display: block;
+  font-size: 44px;
+  color: #03C4EB;
+  float: left;
+  line-height: 0;
+}
+.counts .count-box span {
+  font-size: 48px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 60px;
+}
+.counts .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 60px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #ffffffce;
+}
+.counts .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #ffffffce;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+.counts .count-box a:hover {
+  color: #6e9fb4;
 }
 
 /* Subscribe Section
@@ -676,16 +721,16 @@ section {
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
-  background: #f6f6f6;
+  background: #fff;
   padding: 80px 0;
 }
 #testimonials .profile {
   text-align: center;
 }
 #testimonials .profile .pic {
-  border-radius: 50%;
-  border: 6px solid #fff;
-  margin-bottom: 15px;
+  border-radius: 100%;
+  border: hidden;
+  margin-bottom: 10px;
   overflow: hidden;
   height: 260px;
   width: 260px;
@@ -703,8 +748,8 @@ section {
 }
 #testimonials .quote {
   position: relative;
-  background: #fff;
-  padding: 60px;
+  background: #f6f6f6;
+  padding: 40px;
   margin-top: 40px;
   font-size: 16px;
   font-style: italic;
@@ -727,7 +772,7 @@ section {
 /* Team Section
 --------------------------------*/
 #team {
-  background: #fff;
+  background: #f6f6f6;
   padding: 80px 0 60px 0;
 }
 #team .member {
@@ -768,7 +813,7 @@ section {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
+  background: #fff;
   padding: 80px 0 120px 0;
 }
 #contact .info {
